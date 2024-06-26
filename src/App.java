@@ -34,7 +34,7 @@ public class App {
         robo.setStrategy(comportamento3);
         robo.mover();
         
-
+        System.out.println(1584);
        
 
 
