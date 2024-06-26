@@ -1,5 +1,14 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        SyngletonEager eager = SyngletonEager.getInstaciLazy();
+        System.out.println(eager);
+
+
+        SyngletonLazy lazy = SyngletonLazy.getInstaciLazy();
+        System.out.println(lazy);
+
+
+        SyngletonLazyHolder lazyHolder = SyngletonLazyHolder.getInstaciLazy();
+        System.out.println(lazyHolder);
     }
 }
