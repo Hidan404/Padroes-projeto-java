@@ -1,5 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
+
+        //Testes padrao syngleton Design Pattern
         SyngletonEager eager = SyngletonEager.getInstaciLazy();
         System.out.println(eager);
 
